@@ -8,7 +8,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void addUser(String id, String name, String surname) {
-        User playlist = userId == null ? null : userDAO.findById(userId);
+        User playlist = serId == null ? null : UserDAO.findById(userId);
         User user = new User(id, name, surname, playlist);
         userDAO.save(user);
     }
