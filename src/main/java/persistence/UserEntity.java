@@ -19,7 +19,6 @@ public class UserEntity {
 
     @Id
     private String id;
-
     private String name;
     private String surName;
     @ManyToOne

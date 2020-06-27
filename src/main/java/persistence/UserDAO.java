@@ -7,7 +7,7 @@ import java.util.Set;
 public interface UserDAO {
     User findById(String userId);
 
-    void save(User e);
+    void save(User u);
 
     void update(User user);
 

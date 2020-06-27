@@ -17,6 +17,7 @@ public class findUserByNickname implements menuEntry{
         System.out.println("Type user nickname you like to find");
         String command =scanner.nextLine();
         User user = userService.findById(command);
+        System.out.println(user);
     }
 
     @Override

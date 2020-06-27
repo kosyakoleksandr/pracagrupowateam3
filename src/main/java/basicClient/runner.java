@@ -4,6 +4,7 @@ import domain.User;
 import logic.UserService;
 import logic.UserServiceImpl;
 import persistence.DBUserDAO;
+import persistence.InMemoryUserDAO;
 import persistence.UserDAO;
 
 import javax.persistence.EntityManagerFactory;
