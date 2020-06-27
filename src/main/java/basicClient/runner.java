@@ -29,9 +29,10 @@ public class runner {
                 findUserByNickname).collect(Collectors.toList());
 
         subMenuEntry userMenu = new subMenuEntry("User", userSubmenus);
-
+       // subMenuEntry playlistCreator = new subMenuEntry("Playlist", playlistSubmenus);
         subMenuEntry mainMenu = new subMenuEntry("Main Menu",
-                Stream.of(userMenu).collect(Collectors.toList()));
+                //Stream.of(userMenu, playlistCreator).collect(Collectors.toList()));
+        Stream.of(userMenu).collect(Collectors.toList()));
 
         mainMenu.option();
     }
