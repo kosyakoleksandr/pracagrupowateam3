@@ -23,6 +23,6 @@ public class deleteUser implements menuEntry{
 
     @Override
     public String menuEntryName() {
-        return null;
+        return "Delete user ";
     }
 }

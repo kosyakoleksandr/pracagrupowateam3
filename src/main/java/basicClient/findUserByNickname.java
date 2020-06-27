@@ -21,6 +21,6 @@ public class findUserByNickname implements menuEntry{
 
     @Override
     public String menuEntryName() {
-        return null;
+        return "Find User by Nickname";
     }
 }
